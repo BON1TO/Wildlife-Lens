@@ -1,51 +1,58 @@
 🦁 Wildlife Lens — Animal Object Detection App
 
-Wildlife Lens is an intelligent mobile app that detects and classifies animals and other objects from images using a lightweight TensorFlow Lite (TFLite) model.
-It’s optimized for on-device inference, making it fast, accurate, and ideal for real-time wildlife observation — even offline!
+Wildlife Lens is a mobile application that detects and classifies animals and other objects from images using a lightweight TensorFlow Lite (TFLite) model.
+Built entirely in Flutter using Android Studio, the app runs efficiently on mobile devices and performs fast on-device inference without needing an internet connection.
 
-🧠 Overview
+✨ Overview
 
-Wildlife Lens uses an Efficient-Lite CNN model built with TensorFlow and converted to TensorFlow Lite (TFLite) for mobile deployment.
-Users can take or upload a picture, and the app instantly detects animals in the image — providing their names and confidence scores.
+Wildlife Lens leverages an Efficient-Lite CNN model trained with TensorFlow and optimized for TensorFlow Lite.
+Users can capture or upload photos, and the app instantly identifies animals in the image — showing their names and confidence percentages.
 
 🚀 Features
 
-📸 Capture or upload photos directly in the app
+📸 Take or upload images directly from your device
 
-🧩 Detection using TensorFlow Lite
+🧠 Detection using TensorFlow Lite
 
-🐯 Specially trained for animal recognition (wild & domestic)
+🐾 Specialized for wildlife and pet recognition
 
-⚡ Optimized Efficient-Lite model for high-speed, low-latency inference
+⚡ Runs fast on mobile devices (Efficient-Lite model)
 
-📴 Offline detection — works without an internet connection
+📴 Fully offline inference — no server required
 
-🎨 Modern Flutter UI with smooth user experience
+🎨 Smooth modern Flutter UI built with Material Design
+
+💾 Local storage of past results using Shared Preferences
 
 🧬 Tech Stack
 Layer	Technology
 Frontend	Flutter (Dart)
-Machine Learning Model	TensorFlow → TensorFlow Lite (Efficient-Lite)
-Model Integration	tflite_flutter and tflite_flutter_helper packages
-Device Storage	Shared Preferences (for saving detection history)
+Backend / Model	TensorFlow → TensorFlow Lite (Efficient-Lite)
+IDE	Android Studio
+Model Integration	tflite_flutter, tflite_flutter_helper
+Local Storage	Shared Preferences
 ⚙️ How It Works
 
-The user captures or selects an image.
+User captures or uploads an image.
 
-The app preprocesses the image (resizing, normalization, etc.).
+Image is resized and normalized for model input.
 
-The Efficient-Lite TFLite model runs inference locally.
+The Efficient-Lite TFLite model performs inference locally.
 
-Detected animals are displayed with bounding boxes and labels.
+The app displays detected animals with confidence scores.
 
-The results are saved locally for quick access.
+Results are stored for later viewing.
 
 📲 Installation
 Prerequisites
 
 Flutter SDK
 
-Android Studio or VS Code with Flutter plugin
+Android Studio (recommended IDE)
+
+An Android device or emulator
+
+
 
 STEPS TO RUN : 
 
