@@ -46,3 +46,18 @@ Prerequisites
 Flutter SDK
 
 Android Studio or VS Code with Flutter plugin
+
+STEPS TO RUN : 
+
+# Clone the repository
+git clone https://github.com/BON1TO/Wildlife-Lens.git
+
+# Navigate to the project directory
+cd Wildlife-Lens
+
+# Get the dependencies
+flutter pub get
+
+# Run the app
+flutter run
+
